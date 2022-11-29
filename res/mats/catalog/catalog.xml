@@ -1,0 +1,1166 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Catalog Languages="ru|en|es" DevPWD="developer" InnerPWD="12345;student" >
+
+<!--
+non-breaking space:		&#xA0;
+soft hyphen:			&#xAD; 
+micro symbol:			&#xB5; 
+division symbol:		&#x247; 
+non-breaking hyphen:	&#x2011;
+en dash:				&#x2013; 
+em dash:				&#x2014; 
+ellipsis:				&#x2026;
+-->
+
+	<Label>
+		<ru>Электронные учебные материалы по РКИ</ru>
+		<en>Educational Materials Catalog (Russian as a foreign language)</en>
+	</Label>
+
+	<Children>
+
+	<!-- Лаборатория -->
+		<Folder CatalogStatus="Part">
+			<Label>
+				<ru>Интерактивные учебные курсы</ru>
+				<en>Interactive learning courses</en>
+			</Label>
+			<Description>
+				<ru>
+					<![CDATA[
+					<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+						<Paragraph TextAlignment="Justify"></Paragraph>
+					</Section>
+					]]>
+				</ru>
+				<en>
+					<![CDATA[
+					<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+						<Paragraph TextAlignment="Justify"></Paragraph>
+					</Section>
+					]]>
+				</en>
+				<es>
+					<![CDATA[
+					<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+						<Paragraph TextAlignment="Justify"></Paragraph>
+					</Section>
+					]]>
+				</es>
+			</Description>
+			<Children>
+				<Folder IsPackage="True"  Languages="ru|en" TargetLabel="Russian via Songs">
+					<Label>
+						<en>“Russian via Songs”</en>
+						<ru>«Русский язык в песнях»</ru>
+					</Label>
+					<Description>
+						<en>
+							<![CDATA[
+								<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+									<Grid Margin="0" >
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="600" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="Auto"/>
+											<RowDefinition Height="*"/>
+										</Grid.RowDefinitions>
+										
+										<Image Grid.Column="0" Grid.Row="0" Source="/images/RusViaSongs.png" Margin="0,10,0,0" VerticalAlignment="Top"  />
+										<lv:StoreRichText Grid.Column="0" Grid.Row="1" TextAlignment="Justify" xml:space="preserve" FontSize="14" Margin="0,10,0,0" Padding="5,5,10,5">
+											<Paragraph><Run FontWeight="Bold" Foreground="#FFB22222">“Russian via Songs”</Run> — is an interactive Internet project for those who want to know more about Russia and the Russian language by studying popular Russian songs. This is a fun way to study language spoken by 500 million people.</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph FontWeight="Bold">“Russian via Songs” program will allow you:</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph>   <Bold>•</Bold>  to use vast multimedia possibilities for studying Russian as a foreign language, ranging from its vocabulary, grammar, translation to listening and recording;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to learn new words, phrases, colloquial and cliché expressions which are used in spoken Russian;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to listen to the Russian language spoken by native speakers as well as practise listening comprehension and pronunciation;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to know more about Russian composers, poets, and singers on the examples of their best works;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to feel and understand Russian way of thinking due to studying the original materials;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to get acquainted with pop culture of Russia;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  to learn natural words and expressions used by the Russians in reference to the popular songs.</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph TextAlignment="Center" FontStyle="Italic" Foreground="#FFB22222" FontSize="16">Sing our favorite Russian songs with us!</Paragraph>
+											<Paragraph  FontSize="8"/>
+											<Paragraph FontSize="12" FontStyle="Italic">URL of the original project website:</Paragraph>
+											<Paragraph  FontSize="2"/>
+											<Paragraph FontSize="12">http://www.rusongs.vsu.ru/</Paragraph>
+										</lv:StoreRichText>
+									</Grid>						
+								</DataTemplate>
+							]]>							
+						</en>
+						<ru>
+							<![CDATA[
+								<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+									<Grid Margin="0" >
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="600" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="Auto"/>
+											<RowDefinition Height="*"/>
+										</Grid.RowDefinitions>
+										
+										<Image Grid.Column="0" Grid.Row="0" Source="/images/RusViaSongs.png" Margin="0,10,0,0" VerticalAlignment="Top"  />
+										<lv:StoreRichText Grid.Column="0" Grid.Row="1" TextAlignment="Justify" xml:space="preserve" FontSize="14" Margin="0,10,0,0" Padding="5,5,10,5">
+											<Paragraph><Run FontWeight="Bold" Foreground="#FFB22222">«Русский язык в песнях»</Run> — это интерактивный проект для тех, кто хочет больше узнать о России и русском языке, изучая популярные русские песни. Это увлекательный, эмоциональный, музыкальный способ выучить язык, на котором говорит около 500 млн. человек во всём мире.</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph TextAlignment="Center" FontWeight="Bold">Программа «Русский язык в песнях» позволит вам:</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph>   <Bold>•</Bold>  использовать материалы, специально созданные для изучения русского языка как иностранного (словари, комментарии, аудио-, грамматические и лексические тесты, переводы, прослушивание с синхронизацией звука, записью собственного исполнения);</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  узнать новые слова и выражения, в том числе речевые клише, которые часто используются в живой речи;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  услышать «реальное» русское произношение в потоке речи и потренироваться в его восприятии;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  узнать о российских музыкантах, поэтах, их творчестве на примере их лучших, проверенных временем произведений;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  почувствовать и понять русский образ мыслей благодаря изучению аутентичных материалов;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  познакомиться с песенной культурой России;</Paragraph>
+											<Paragraph FontSize="4"/>
+											<Paragraph>   <Bold>•</Bold>  научиться говорить с носителями русского языка «на одном языке», понимая цитаты из популярных песен.</Paragraph>
+											<Paragraph FontSize="8"/>
+											<Paragraph TextAlignment="Center" FontStyle="Italic" Foreground="#FFB22222" FontSize="16">Пойте с нами наши любимые русские песни!</Paragraph>
+											<Paragraph  FontSize="8"/>
+											<Paragraph FontSize="12" FontStyle="Italic">Адрес оригинального сайта проекта:</Paragraph>
+											<Paragraph  FontSize="2"/>
+											<Paragraph FontSize="12">http://www.rusongs.vsu.ru/</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph TextAlignment="Center" FontWeight="Bold" Foreground="#FFB22222">О проекте «Русский язык в песнях»</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph >Интерактивно-мультимедийное учебное пособие «Русский язык в песнях» (Via Songs to Russian) для англоязычных учащихся разработан лабораторией новых образовательных технологий ИМО ВГУ совместно с преподавателями-методистами кафедры русского языка довузовского этапа обучения иностранных учащихся ИМО ВГУ по гранту Фонда «Русский мир».</Paragraph>
+											<Paragraph >ЭУП содержит 16 модулей с учебным материалом на базе популярных российских песен («Ландыши», «Черный кот», «Снег идёт», «Остров невезения» и т.д.).</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph >Содержание:</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph ><Bold>•</Bold> Введение (видео презентация песни, история написания песни, информация об авторах и исполнителях);</Paragraph>
+											<Paragraph ><Bold>•</Bold> Изучение песни (текст песни с переводом, фонетическая отработка, словарь, грамматический комментарий);</Paragraph>
+											<Paragraph ><Bold>•</Bold> Интерактивные задания по тексту песни (аудирование, грамматика, лексика);</Paragraph>
+											<Paragraph ><Bold>•</Bold> Фонетическая запись собственного исполнения песни.</Paragraph>
+											<Paragraph FontSize="12" />
+											<Paragraph >Авторы и разработчики:</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph  >Идея и программная разработка: Григорий Черкасов</Paragraph>
+											<Paragraph  >Методическая разработка: Татьяна Данилевская, Маргарита Злобина, Татьяна Распопова</Paragraph>
+											<Paragraph  >Графические иллюстрации: Надежда Колесникова</Paragraph>
+											<Paragraph  >Работа со звуком: Геннадий Алипатов</Paragraph>
+											<Paragraph  >Дикторское озвучивание: Илья Буданин, Татьяна Данилевская</Paragraph>
+											<Paragraph  >Перевод на английский язык: Маргарита Злобина</Paragraph>
+											<Paragraph FontSize="12" />
+											<Paragraph  >Дата разработки: 2012г.</Paragraph>
+										</lv:StoreRichText>
+									</Grid>						
+								</DataTemplate>
+							]]>
+						</ru>
+					</Description>
+					<Children>
+						<Book Guid="E294C6CA-6C64-4F80-B658-30EC11030329" Uri="/rus-via-songs/01-Snow-is-falling.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>А снег идёт</ru>
+								<en>Snow Is Falling</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="307D9B12-8E8D-49E5-A0CE-E6BD54C9459F" Uri="/rus-via-songs/02-If-you-dont-have-aunt.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Если у вас нету тёти</ru>
+								<en>If You Don’t Have an Aunt</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="0C5E1482-564A-435C-88E5-83E6C340C08E" Uri="/rus-via-songs/03-Lilies-of-valley.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Ландыши</ru>
+								<en>Lilies of the Valley</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="3EB4E0BF-2381-46BD-AD0E-A6BD3428F4B4" Uri="/rus-via-songs/04-Yellow-leaves.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Листья жёлтые</ru>
+								<en>Yellow Leaves</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="3BF583AC-69AA-4216-A193-27BD64A633FC" Uri="/rus-via-songs/05-Million-of-scarlet-roses.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Миллион алых роз</ru>
+								<en>A Million of Red Roses</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="A0572B7E-E106-4EAB-A52B-CA25F8BABE1A" Uri="/rus-via-songs/06-Our-neighbor.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Наш сосед</ru>
+								<en>Our Neighbor</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="4BA620ED-633E-402A-A8FE-34F2E7AE702D" Uri="/rus-via-songs/07-Dont-worry-aunty.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Не волнуйтесь, тётя!</ru>
+								<en>Don’t Worry, Aunty!</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="BF767CB3-6B72-4420-B1EE-9A1FA322B7DE" Uri="/rus-via-songs/08-Island-of-misfortune.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Остров невезения</ru>
+								<en>An Island of Misfortune</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="C7BAA434-1B2F-4849-B2FE-AFB8D392941C" Uri="/rus-via-songs/09-Song-about-good-mood.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Песенка о хорошем настроении</ru>
+								<en>The Song about Good Mood</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="AF139D34-7AD3-4EE1-B547-B97E74D3821A" Uri="/rus-via-songs/10-Song-stays-with-man-forever.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Песня остаётся с человеком</ru>
+								<en>A Song Stays With a Man Forever</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="29A546AC-8923-4D83-BDEA-E1848DC9A791" Uri="/rus-via-songs/11-Penguins.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Пингвины</ru>
+								<en>Penguins</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="652A7215-486B-4973-8AE1-1A8FC31612BD" Uri="/rus-via-songs/12-Tired-toys-sleeping.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Спят усталые игрушки</ru>
+								<en>Tired Toys Are Sleeping</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="19E71ED1-40A9-4170-BE86-936D4937262D" Uri="/rus-via-songs/13-Old-maple-tree.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Старый клён</ru>
+								<en>An Old Maple Tree</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="0C93EBB9-BB4C-4A34-8998-C5AA09F1DA83" Uri="/rus-via-songs/14-Dark-night.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Тёмная ночь</ru>
+								<en>A Dark Night</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="2E488435-5806-4604-8E47-46049E96C3CD" Uri="/rus-via-songs/15-Black-cat.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Чёрный кот</ru>
+								<en>The Black Cat</en>
+							</BookName>
+						</Book>
+
+						<Book Guid="583E50F4-FB65-4375-8110-BD4FC412430E" Uri="/rus-via-songs/16-I-walk-around-Moscow.imbook" Modified="12/31/2015 00:00:00">
+							<BookName>
+								<ru>Я шагаю по Москве</ru>
+								<en>I Walk around Moscow</en>
+							</BookName>
+						</Book>					
+					</Children>	
+				</Folder>
+
+				<!-- START Russian for Communication -->
+				<Folder IsPackage="True" Languages="ru|es" TargetLabel='Curso a distancia “Ruso comunicativo”'>
+					<Label>
+						<ru>«Русский&#xA0;для&#xA0;общения»&#x0a;(Испанская версия)</ru>
+						<es>“Ruso&#xA0;comunicativo”&#x0a;(Versión española)</es>
+						<en>“Russian for Communication”&#x0a;(Spanish version)</en>
+					</Label>
+					
+					<Description>
+						<ru>
+							<![CDATA[
+								<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+									<Grid Margin="0" >
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="350" />
+											<ColumnDefinition Width="450" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="*"/>
+										</Grid.RowDefinitions>
+										
+										<Image Grid.Column="0" Grid.Row="0" Source="/images/RFC-Cover.png" Margin="5" VerticalAlignment="Top"  />
+										<lv:StoreRichText Grid.Column="1" Grid.Row="0" TextAlignment="Justify" xml:space="preserve" FontSize="14" Margin="0,10,0,0" Padding="5,5,10,5">
+
+											<Paragraph TextAlignment="Center" FontWeight="Bold" >«Русский язык для общения. Начальный уровень»</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph TextAlignment="Left"  >Электронный (виртуальный) учебный курс «Русский язык для общения. Начальный уровень» для испаноязычных учащихся. Разработан лабораторией новых образовательных технологий ИМО ВГУ совместно с преподавателями кафедры русского языка довузовского этапа обучения иностранных учащихся ИМО ВГУ.</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph >Содержание:</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph TextAlignment="Left"   ><Bold>•</Bold> Вводный курс. Введение. «Алфавит и правила чтения»;</Paragraph>
+											<Paragraph TextAlignment="Left"  ><Bold>•</Bold> Основной курс. Коммуникативные темы: «Знакомство», «Город», «Семья», «Страна», «Свободное время», «Путешествие». Каждая коммуникативная тема имеет стандартный набор разделов: Интерактивный разговорник. Диалоги и задания. Тематическая лексика в речевых моделях с упражнениями. Практическая грамматика с упражнениями. Говорение. Итоговый раздел с тестовыми заданиями.</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph >Приложения:</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph ><Bold>•</Bold> «Практическая фонетика»;</Paragraph>
+											<Paragraph ><Bold>•</Bold> Справочник «Грамматика в таблицах»;</Paragraph>
+											<Paragraph ><Bold>•</Bold> Лингвострановедческий материал.</Paragraph>
+											<Paragraph FontSize="12" />
+											<Paragraph >Авторы и разработчики:</Paragraph>
+											<Paragraph FontSize="12"/>
+											<Paragraph  TextAlignment="Left"  >Разработка программной системы и технологий: Григорий Черкасов.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Реализация интерактивного учебного материала: Геннадий Алипатов, Григорий Черкасов.</Paragraph>
+											<Paragraph TextAlignment="Left"   >Методическая разработка: Маргарита Злобина, Виктория Вязовская.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Графические иллюстрации: Вероника Злобина.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Дикторское озвучивание: Илья Буданин, Валерий Заборовский, Юлия Яровая.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Видеосъёмка и монтаж: Валерий Заборовский.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Редактирование: Ирина Шигина.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Перевод на испанский язык, консультирование: Ирина Шигина, Рикардо Эррерас.</Paragraph>
+											<Paragraph  TextAlignment="Left"  >Участники видеосюжетов: стажёры из Испании Альба Мартин Бульнес, Давид Альварес, Хакобо Мак Морроу и Кристиано Фернандес Чапмэн и студенты факультета журналистики ВГУ.</Paragraph>
+											<Paragraph FontSize="12" />
+											<Paragraph  >Дата разработки: 2016г.</Paragraph>
+										</lv:StoreRichText>
+									</Grid>						
+								</DataTemplate>
+							]]>
+						</ru>
+						<es>
+							<![CDATA[
+								<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+									<Grid Margin="0" >
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="350" />
+											<ColumnDefinition Width="450" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="*"/>
+										</Grid.RowDefinitions>
+										
+										<Image Grid.Column="0" Grid.Row="0" Source="/images/RFC-Cover.png" Margin="5" VerticalAlignment="Top"  />
+										<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+											<Paragraph TextAlignment="Justify"><Bold>“Ruso comunicativo. Nivel elemental”</Bold> es un manual electrónico de entrenamiento con un amplio abanico de opciones multimedias e interactivas.</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify">Gracias a ello el proceso de aprendizaje del idioma ruso se hace fácil y ameno. Las tecnologías informáticas modernas  les permitirán:</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">    a) memorizar una gran cantidad de léxico activo y expresiones necesarias de uso frecuente;</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">    b) adquirir y perfeccionar sus hábitos de la pronunciación rusa;</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">    c) obtener las habilidades  comunicativas adecuadas participando en los diálogos virtuales;</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify">El curso electrónico en línea <Bold>“Ruso comunicativo”</Bold> ofrece los materiales didácticos apropiados tanto para la tutoría como para el autoaprendizaje.</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify">Los materiales del curso podrán ser aprovechados por todos aquellos que deseen aprender y utilizar el idioma ruso en su comunicación cotidiana con los rusohablantes.</Paragraph>
+										</lv:StoreRichText>
+										
+									</Grid>
+								</DataTemplate>
+							]]>
+						</es>
+					</Description>
+					
+					<Children>
+						<!-- START Spanish version -->
+						
+						<Book Guid="{5AB70000-7854-4209-BEA6-A11C0D940DD5}" Uri="/rus-for-comm/es/00-IIE-RC-Introduction-es.imbook" Modified="08/29/2017 00:00:00">
+							<BookName>
+								<es IsTarget="True">Introducción</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+									]]>
+								</es>
+							</Description>
+						</Book>						
+						
+						<Book Guid="{56569929-B6F2-4938-89AB-6D0B1053E3E5}" Uri="/rus-for-comm/es/02-IIE-RC-Alphabet-es.imbook" Modified="08/10/2017 00:00:00">
+							<BookName>
+								<es IsTarget="True">Alfabeto ruso y reglas de lectura</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/AlfabetoRuso-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Alfabeto ruso y reglas de lectura</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Unidad “Alfabeto y reglas de su lectura”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">El primer apartado de esta Unidad permitirá memorizar con facilidad y rapidez las letras y sonidos correspondientes.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el segundo apartado los alumnos conocerán las particularidades de la pronunciación tanto de las vocales, como de las consonantes, y aprenderán a leer palabras rusas.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el apartado “Entonación” los alumnos conocerán y aprenderán los cinco tipos de entonación rusa para poder expresar sus intenciones comunicativas principales.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Todo el material de la Unidad está sonorizado, lo cual permitirá a los alumnos chequear su pronunciación comparándola con el patrón de referencia.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Los alumnos podrán profundizar sus conocimientos y mejorar habilidades en el area de la pronunciación rusa al abrir la Unidad “Fonética práctica”, que contiene ejercicios de entrenamiento interactivo con el material léxico y comunicativo más variado.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>
+
+						<Book Guid="{F7583B89-E7CE-4863-98A1-85A2B395349C}" Uri="/rus-for-comm/es/11-IIE-RC-Theme-1-es.imbook" Modified="08/29/2017 00:00:00">
+							<BookName>
+								<es IsTarget="True">Unidad 1. “¡Vamos a conocernos!”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Theme-1-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unidad 1. “¡Vamos a conocernos!”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Al haber aprendido este tema seréis capaces de saludar, presentaros y despediros en ruso en las situaciones tanto formales como informales. Los vídeos os mostrarán las peculiaridades de los hábitos comunicativos rusos en estas situaciones, mientras la forma interactiva de las tareas os permitirá memorizar todas las palabras y expresiones necesarias con facilidad.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+												
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>
+						
+						<Book Guid="{27D9A2BE-519D-4BCA-8CE8-0F88A82BA5A7}" Uri="/rus-for-comm/es/12-IIE-RC-Theme-2-es.imbook" Modified="09/11/2017 00:00:00">
+							<BookName>
+								<es>Unidad 2. “Disculpe, ¿Dónde se encuentra ...?”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Theme-2-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unidad 2. “Disculpe, ¿Dónde se encuentra ...?”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Unidad  dedicada al tema “La Ciudad”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Una vez se hayan aprendido las palabras y expresiones de la misma, los alumnos serán capaces desenvolverse en el espacio de la ciudad rusa.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el primer apartado de la Unidad “Frases cotidianas” ustedes conocerán las palabras y expresiones que les servirán en un viaje por cualquier ciudad rusa.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">El video presenta el tema que muestra cómo un extranjero puede orientarse en la ciudad usando estas expresiones.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify"> En el apartado “Cómo se dice en ruso” los alumnos aprenderán palabras y oraciones simples sobre el tema “La Ciudad”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el apartado “Un poco de gramática” ustedes conocerán las reglas de la formación del plural de los sustantivos, así como las frases necesarias para localizar un objeto.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">El entrenamiento comunicativo del apartado “¿Hablamos?” les permitirá perfeccionar la pronunciación de las frases de los apartados anteriores y  aprender las nuevas.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">El apartado “Comprueba tus conocimientos” ofrece la opción de hacer un test léxico y comunicativo sobre el tema “La Ciudad”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Aprendido el vocabulario del tema “La Ciudad” y un poco de la gramática correspondiente al mismo, los alumnos podrán hablar y entender a los ciudadanos rusos y actuar con facilidad en las diferentes situaciones comunicativas que puedan surgir durante un viaje por la Federación Rusa.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>
+
+						<Book Guid="{6E37D4B5-FE18-4435-8EB9-4E3518BB6EB7}" Uri="/rus-for-comm/es/13-IIE-RC-Theme-3-es.imbook" Modified="08/29/2017 00:00:00">
+							<BookName>
+								<es>Unidad 3. “¡Amo a mi familia!”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Family-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unidad 3. “¡Amo a mi familia!”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Unidad dedicada a los temas “La Familia” y “Las Profesiones”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Los diálogos del primer apartado les facilitarán las frases necesarias para hablar con los rusos nativos sobre la familia.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el apartado “¿Cómo se dice en ruso?” los alumnos aprenderán el vocabulario sobre los temas “La Familia” y “Las Profesiones” para poder hablar acerca de su familia, de las profesiones y aficiones de ellos mismos y de sus  amigos y parientes.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el apartado “Un poco de gramática” ustedes conocerán las categorías básicas de la gramática rusa, tales como los pronombre personales y el caso acusativo de los sustantivos.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">En el entrenamiento comunicativo “¡Hablamos!” Ustedes perfecionarán las habilidades comunicativas aprendidas con anterioridad para desarrollar este tema.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Y en el apartado “Comprueba tus conocimientos” ustedes deberán hacer el test sobre los temas estudiados.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Cuando aprendan la presente Unidad, ustedes serán capaces de ampliar su vocabulario y de mantener una comunicación con los rusohablantes sobre el tema de la familia además de conocer las tradiciones familiares rusas, lo cual les auydará a comprender al pueblo ruso y su cultura.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>
+
+						<Book Guid="{CEB4E580-F526-4600-B697-265EB2DC76A1}" Uri="/rus-for-comm/es/14-IIE-RC-Unit-4-es.imbook" Modified="08/29/2017 00:00:00">
+							<BookName>
+								<es IsTarget="True">Unidad 4. “Soy de España. ¿Y tú?”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Unit-4-Cover.png" Margin="5" VerticalAlignment="Top" />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unitad 4. “Soy de España. ¿Y tú?”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Al haber aprendido esta lección seréis capaces de hablar sobre vosotros mismos, decir de dónde venís, hablar de vuestra ciudad natal, de los idiomas que habláis.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Podréis enriquecer vuestro vocabulario con las palabras nuevas, así como con las frases sobre el tema “País. Lengua”.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Los ejercicios interactivos os auydarán a aprender y memorizar este vocabulario. Mientras el vídeo  demostrará una situación típica comunicativa según el tema. En el apartado “Un poco de la Gramática” conoceréis los adjetivos, el Genitivo de los sustantivos y su uso, así como el Presente de los verbos.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Además os vamos a contar varios  datos interesantes sobre Rusia.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>
+						
+						<Book Guid="{10AF6CFE-FB8B-490E-A9FF-387B06929EF4}" Uri="/rus-for-comm/es/15-IIE-RC-Unit-5-es.imbook" Modified="09/18/2016 00:00:00">
+							<BookName>
+								<es IsTarget="True">Unidad 5. “¿Qué sueles hacer todos los días?”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Unit-5-Cover.png" Margin="5" VerticalAlignment="Top" />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unidad 5. “¿Qué sueles hacer todos los días?”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">En esta Unidad aprenderéis a hablar sobre vuestros quehaceres durante todo el día.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Conoceréis las palabras y frases con las cuales seréis capaces de comentar cómo pasa vuestro día normal.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Veréis el vídeo que representa  el diálogo de los amigos,    del cual os enteraréis de cómo pasa el día de uno de ellos.El vídeo y las tareas que lo acompañan os harán muy fácil aprender las frases principales y mostrarán su uso en el habla.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Aprenderéis emplear correctamente las frases y expresiones rusas para hablar del espacio y el tiempo. Os enteraréis de cómo los rusos hablan  sobre el tiempo en general y sobre su tiempo laboral, en particular.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>		
+
+						<Book Guid="{320E32ED-349D-4FC0-8692-A99BD34CEC06}" Uri="/rus-for-comm/es/16-IIE-RC-Unit-6-es.imbook" Modified="06/23/2017 00:00:00">
+							<BookName>
+								<es IsTarget="True">Unidad 6. “Nos vamos de viaje”</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Unit-6-Cover.png" Margin="5" VerticalAlignment="Top" />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Unidad 6. “Vamos de viaje”</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Esta Unidad está dedicada al tema de los viajes.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">El vídeo presenta las frases útiles para hablar sobre los viajes, sus rutas y los compañeros de viaje. </Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Entre otras cosas vuestro vocabulario activo será enriquecido con el léxico necesario para comentar el tiempo atmosférico y los platos de comida y bebida.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Aprenderéis expresar vuestras intenciones de hacer algo en el futuro y pedir un favor. Además conoceréis los sitios de mucho interés para visitar en Rusia.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</es>
+							</Description>
+						</Book>		
+						
+						<Book Guid="{EA143370-7A8E-480B-A05C-F5D39D521107}" Uri="/rus-for-comm/es/20-IIE-RC-Phonetics-es.imbook" Modified="08/29/2017 00:00:00">
+							<BookName>
+								<es>Fonética práctica</es>
+							</BookName>
+							<Description>
+								<es>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Phonetics-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Fonética práctica</Paragraph>
+													<Paragraph FontSize="10"/>
+													<Paragraph TextAlignment="Justify">La Unidad de la fonética práctica está diseñada para los alumnos principiantes hispanohablantes, los cuales empiezan a estudiar ruso sin previo conocimento de su alfabeto, de las reglas de su lectura y pronunciación.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">La Unidad de la fonética práctica les proporcionará la información básica sobre las reglas de la pronunciación de los sonidos de lengua rusa y las reglas de lectura con la traducción al español de todas las palabras y oraciones, además de la explicación de los fenómenos característicos de la fonética rusa.</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">Todas las letras, palabras y frases de la Unidad están sonorizadas, lo cual le prestará al alumno una amplia variedad de tareas de entrenamiento: escuchar la pronunciación del locutor, imitarla y grabar la suya guardándola para luego reproducirla, escucharla, o borrarla y volver a grabar con el fin de perfeccionarla, comparándola cada vez con el patrón de referencia.</Paragraph>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>								
+								</es>
+							</Description>
+						</Book>
+						
+						<!-- END Spanish version -->
+					</Children>
+				</Folder>
+				<!-- END Russian for Communication -->
+
+				<!-- START Китайская версия -->
+				<Folder IsPackage="True" Languages="cn" TargetLabel='交际俄语'>
+					<Label>
+						<cn>交际俄语</cn>
+					</Label>
+					
+					<Description>
+						<cn>
+							<![CDATA[
+								<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+									<Grid Margin="0" >
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="350" />
+											<ColumnDefinition Width="450" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="*"/>
+										</Grid.RowDefinitions>
+										
+										<Image Grid.Column="0" Grid.Row="0" Source="/images/rfc/rfc-cover-cn.png" Margin="5" VerticalAlignment="Top"  />
+										<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="16" Margin="10,0,0,0">
+											<Paragraph TextAlignment="Justify"><Bold>《交际俄语—基础水平》</Bold> 是一本电子书，它提供了多媒体、交互式学习的多种可能。 该书是俄罗斯口语初学者教程。</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify">该书中使用现代电脑教育技术，在全方位学习外语的基础上，提供以下可能：</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">—获得相应的交流习惯</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">—快速记住大量词汇和语言模型，并在实际语言中使用它们。</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">—掌握俄语基础语法</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">—完善俄语发音</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="2"/>
+											<Paragraph TextAlignment="Justify" xml:space="preserve">—了解俄罗斯和俄罗斯文化中很多有趣的地方</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify">使用该电子课本，可以在任何时间和任何地方独立掌握俄语初级教程。</Paragraph>
+											<Paragraph TextAlignment="Justify" FontSize="8"/>
+											<Paragraph TextAlignment="Justify"><Bold>电子课本《交际俄语》</Bold> 献给在俄罗斯朋友和同事交流中，准备积极使用俄语的人。</Paragraph>
+										</lv:StoreRichText>
+										
+									</Grid>
+								</DataTemplate>
+							]]>
+						</cn>
+					</Description>
+					
+					<Children>
+						<Book Guid="{1C7EC26D-86A2-43F4-9428-AF1512BD78A2}" Uri="/rus-for-comm/cn/02-IIE-RC-Alphabet-cn.imbook" Modified="11/18/2016 00:00:00">
+							<BookName>
+								<cn IsTarget="True">字母表与读音规则</cn>
+							</BookName>
+							<Description>
+								<cn>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/AlfabetoRuso-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">字母表与读音规则</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">首先我们要学习的是俄语字母表和俄语的读音规则。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">第一部分内容可以快速地帮助大家学习俄语字母的发音，大家一定要认真听并且重复。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">第二部分的内容是元音和辅音，这样大家就可以朗读俄语单词了。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">下一部分就是语音的学习，通过这一部分的学习可以正确朗读俄语句子。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">提示：我们的学习系统还有一个特别的功能就是能够录音，你可以把自己的读音录下来，然后与系统中的发音比较，提高发音的准确性。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</cn>
+							</Description>
+						</Book>
+
+						<Book Guid="{536CACCA-F713-41B5-8AE8-40FD146B9401}" Uri="/rus-for-comm/cn/11-IIE-RC-Theme-1-cn.imbook" Modified="11/18/2016 00:00:00">
+							<BookName>
+								<cn IsTarget="True">主题一、让我们认识一下</cn>
+							</BookName>
+							<Description>
+								<cn>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Theme-1-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">主题一、让我们认识一下</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">。这里我们学习如何在不同情形下用俄语和别人展开对话。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">“人”和“地图”是大家首先会学会的俄语单词。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">本节的学习影片将会让你感受到学习俄语的趣味性和互动性，让你够体会俄语在实际生活中是如何运用的。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</cn>
+							</Description>
+						</Book>
+						
+						<Book Guid="{13954400-165D-49FD-A4C1-C7C35944E81F}" Uri="/rus-for-comm/cn/12-IIE-RC-Theme-2-cn.imbook" Modified="11/27/2016 00:00:00">
+							<BookName>
+								<cn IsTarget="True">话题二、请问，……在哪里？</cn>
+							</BookName>
+							<Description>
+								<cn>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/Theme-2-Cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">话题二、请问，……在哪里？</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">这个主题中，你将学习与确定方位有关的单词和短语。例如，当你迷路了，你知道怎么用俄语寻求帮助。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">当你学会了这些必要的单词和短语后，视频会向你展示外国人在生活中是如何使用这些单词和短语的。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">在“语法”学习中，你将学习俄语名词的复数形式，以及如何正确回答“......在哪里？”的问题。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">互动板块将帮助大家更好地运用学习材料以及提高口语能力。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">在“自我测评！”中，你可以通过测试来了解自己对本主题内容的掌握程度。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+													<Paragraph TextAlignment="Justify">通过本主题的学习，不管你在俄罗斯的哪一个城市迷路了，你都不会不知所措，运用这一主题的知识，你可以完美的解决这一问题。</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+											</Grid>
+										</DataTemplate>
+									]]>
+								</cn>
+							</Description>
+						</Book>						
+						
+
+					</Children>
+				</Folder>				
+				<!-- END Китайская версия -->
+								
+			</Children>
+		</Folder>
+
+	
+	<!-- Кафедра русского языка довузовского этапа обучения -->
+		<Folder CatalogStatus="Part">
+			<Label>
+				<ru>Виртуальные учебники и учебные пособия</ru>
+				<en>Virtual textbooks and teaching aids</en>
+			</Label>
+			<Description>
+				<ru>
+					<![CDATA[
+					<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+						<Paragraph TextAlignment="Justify"></Paragraph>
+					</Section>
+					]]>
+				</ru>
+				<en>
+					<![CDATA[
+					<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+						<Paragraph TextAlignment="Justify"></Paragraph>
+					</Section>
+					]]>
+				</en>
+			</Description>
+			
+			<Children>
+			
+				<!-- Глаголы движения -->
+				<Folder IsPackage="True" Languages="ru" TargetLabel="Русские глаголы">
+					<Label>
+						<ru>Русские глаголы</ru>
+					</Label>
+					<Description>
+						<ru>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<lv:StoreRichText Grid.Column="0" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Глаголы</Paragraph>
+													<Paragraph FontSize="10"/>
+													<Paragraph TextAlignment="Left">Электронное учебное пособие разработано лабораторией новых образовательных технологий ИМО ВГУ, 2017 г.</Paragraph> 
+													<Paragraph FontSize="10"/>
+														<Paragraph>Содержание:</Paragraph>
+														<Paragraph>Часть 1.	Глаголы движения. Часть 1 (ИДТИ – ХОДИТЬ, ЕХАТЬ – ЕЗДИТЬ)</Paragraph>
+														<Paragraph>Часть 2.	Глаголы движения. Часть 2 (БЕГАТЬ, ЛЕТЕТЬ, ПЛЫТЬ, НЕСТИ, ВЕСТИ, ВОЗИТЬ)</Paragraph>
+														<Paragraph>3. Глаголы движения с префиксами</Paragraph>
+														<Paragraph>4.	Виды глаголов</Paragraph>
+														<Paragraph FontSize="10"/>
+														<Paragraph>Программная разработка: Геннадий Алипатов, Григорий Черкасов</Paragraph>
+														<Paragraph>Методическая разработка: Маргарита Злобина, Марина Зырянова</Paragraph>
+														<Paragraph>Дата разработки: 2017г.</Paragraph>
+														<Paragraph FontSize="8"/>
+												</lv:StoreRichText>
+												
+											</Grid>
+										</DataTemplate>
+									]]>
+							
+						</ru>
+					</Description>
+					<Children>
+						<Book Guid="{D0ED4DFF-64E7-473A-BFC6-1F757A5F83AB}" Uri="/rus-lang-dep/Rus-Motion-Verbs-P1-ru.imbook" Modified="04/10/2019 12:00:00">
+							<BookName>
+								<ru>Глаголы движения. Часть 1</ru>
+							</BookName>
+							<Description>
+								<ru>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/motion-verbs/motion-verbs-p1-ru-cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Глаголы движения. Часть 1</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Аннотация к пособию на русском языке</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+												
+											</Grid>
+										</DataTemplate>
+									]]>
+								</ru>
+							</Description>
+						</Book>
+						
+						<Book Guid="{D28B9470-19EF-400C-B336-E5CBE16F2E3E}" Uri="/rus-lang-dep/Rus-Motion-Verbs-P2-ru.imbook" Modified="04/07/2020 15:22:00">
+							<BookName>
+								<ru>Глаголы движения. Часть 2</ru>
+							</BookName>
+							<Description>
+								<ru>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="350" />
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<Image Grid.Column="0" Grid.Row="0" Source="/images/motion-verbs/motion-verbs-p2-ru-cover.png" Margin="5" VerticalAlignment="Top"  />
+												<lv:StoreRichText Grid.Column="1" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Глаголы движения. Часть 2</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="10"/>
+													<Paragraph TextAlignment="Justify">Аннотация к пособию на русском языке</Paragraph>
+													<Paragraph TextAlignment="Justify" FontSize="8"/>
+												</lv:StoreRichText>
+												
+											</Grid>
+										</DataTemplate>
+									]]>
+								</ru>
+							</Description>
+						</Book>
+						
+						<Book Guid="{266D5613-9E3B-46AB-8889-FE20651F3A38}" Uri="/rus-lang-dep/Rus-MtnVrb-Prefixes-ru.imbook" Modified="04/09/2020 17:43:00">
+							<BookName>
+								<ru>Глаголы движения с префиксами</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{2AEF9DAA-E0DD-4FF0-B390-0FA3583B5EEC}" Uri="/rus-lang-dep/Rus-Vrb-Type-ru.imbook" Modified="02/14/2020 15:07:00">
+							<BookName>
+								<ru>Виды глагола</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{B51DDAD5-D69D-449E-91B2-41E5E070C347}" Uri="/rus-lang-dep/Pres-Time-Rus-Verb-ru.imbook" Modified="05/25/2022 14:34:00">
+							<BookName>
+								<ru>Глагол. Настоящее время</ru>
+							</BookName>
+							<Description>
+								<![CDATA[
+								<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+									<Paragraph TextAlignment="Center" FontWeight="Bold">Обратите внимание!</Paragraph>
+									<Paragraph TextAlignment="Justify" FontSize="10"/>
+									<Paragraph TextAlignment="Justify">Уважаемые пользователи "Интерактивной библиотеки ИМО ВГУ", данное пособие находится в стадии разработки. Убедительная просьба, не скачивать и, тем более, не демонстрировать публично данное электронное пособие до момента его готовности, когда будет снято с названия пособия слово "разработка".
+								Ненадлежащее исполнение этого требования может трактоваться как нарушение авторских прав разработчиков электронных ресурсов ИМО ВГУ.</Paragraph>
+
+									<Paragraph TextAlignment="Justify" FontSize="8"/>
+								</Section>
+								]]>
+							</Description>
+						</Book>
+					</Children>	
+				</Folder>
+				
+				<!-- Падежи -->
+				<Folder IsPackage="True"  Languages="ru" TargetLabel="Русские падежи">
+					<Label>
+						<ru>Русские падежи</ru>
+					</Label>
+					<Description>
+						<ru>
+									<![CDATA[
+										<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:lv="clr-namespace:IMTech.LayerView;assembly=LayerView">
+											<Grid Margin="0" >
+												<Grid.ColumnDefinitions>
+													<ColumnDefinition Width="450" />
+												</Grid.ColumnDefinitions>
+												<Grid.RowDefinitions>
+													<RowDefinition Height="*"/>
+												</Grid.RowDefinitions>
+												
+												<lv:StoreRichText Grid.Column="0" Grid.Row="0" FontSize="14" Margin="10,0,0,0">
+													<Paragraph TextAlignment="Center" FontWeight="Bold">Русские падежи</Paragraph>
+													<Paragraph FontSize="10"/>
+													<Paragraph TextAlignment="Left">Электронное учебное пособие разработано лабораторией новых образовательных технологий ИМО ВГУ</Paragraph> 
+													<Paragraph FontSize="10"/>
+														<Paragraph>Содержание:</Paragraph>
+														<Paragraph>1.	Винительный падеж (ЧТО? КОГО? КУДА?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph>2.	Родительный падеж (КОГО? ЧЕГО? ОТКУДА?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph>3.	Предложный падеж (О КОМ? О ЧЁМ? ГДЕ?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph>4.	Дательный падеж (КОМУ?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph>5.	Дательный падеж с предлогами (К КОМУ? ПО ЧЕМУ?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph>6.	Творительный падеж (КЕМ? С КЕМ? ЧЕМ? С ЧЕМ?) существительных, прилагательных и местоимений (единственное число);</Paragraph>
+														<Paragraph FontSize="10"/>
+														<Paragraph>Программная разработка: Григорий Черкасов, Геннадий Алипатов</Paragraph>
+														<Paragraph>Проектирование: Маргарита Злобина</Paragraph>
+														<Paragraph>Методическая разработка: Маргарита Злобина, Марина Зырянова</Paragraph>
+														<Paragraph>Дата разработки: 2018-2019г.</Paragraph>
+														<Paragraph FontSize="8"/>
+												</lv:StoreRichText>
+												
+											</Grid>
+										</DataTemplate>
+									]]>
+
+						</ru>
+					</Description>
+					<Children>
+						<Book Guid="{2B4C45D3-5882-4C44-843E-C0F942DF752D}" Uri="/rus-lang-dep/00-Rus-Prepositional-Case.imbook" Modified="11/18/2019 11:53:00">
+							<BookName>
+								<ru>Предложный падеж (где? о ком?/о чём?)</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{94C458B8-6C74-4DCE-A254-5D60833248C6}" Uri="/rus-lang-dep/01-Rus-Genitive-Case.imbook" Modified="05/25/2020 15:03:00">
+							<BookName>
+								<ru>Родительный падеж (у кого? нет чего? откуда?)</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{9626EEE6-499A-4418-B36C-BA03B7900BC6}" Uri="/rus-lang-dep/02-Rus-Accusative-Case.imbook" Modified="12/11/2019 14:20:00">
+							<BookName>
+								<ru>Винительный падеж (что? кого? куда?)</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{1B4D1F90-C8A3-47A0-937D-C76F6E3B311C}" Uri="/rus-lang-dep/03-Rus-Dative-Case.imbook" Modified="04/29/2020 15:35:00">
+							<BookName>
+								<ru>Дательный падеж (кому?)</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{4E583D57-8053-4AD1-9C58-31AB77E74391}" Uri="/rus-lang-dep/04-Rus-Prep-Dative-Case.imbook" Modified="10/02/2019 16:14:00">
+							<BookName>
+								<ru>Дательный падеж с предлогами</ru>
+							</BookName>
+						</Book>
+						
+						<Book Guid="{D2CA18FA-AF74-4D3B-8BDB-6344EAF8C5C6}" Uri="/rus-lang-dep/05-Rus-Instrum-Case.imbook" Modified="03/13/2020 15:22:00">
+							<BookName>
+								<ru>Творительный падеж (КЕМ?/С КЕМ?)</ru>
+							</BookName>					
+						</Book>
+
+					</Children>	
+				</Folder>
+			
+				<!-- START Демонстрационные материалы -->
+				<Folder>
+					<Label>
+						<ru>Демонстрационные материалы</ru>
+					</Label>
+					<Description>
+						<ru>
+							<![CDATA[
+							<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve">
+								<Paragraph></Paragraph>
+								<Paragraph FontSize="8"/>
+							</Section>
+							]]>
+						</ru>
+						<en>
+							<![CDATA[
+							<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve">
+								<Paragraph></Paragraph>
+								<Paragraph FontSize="8"/>
+							</Section>
+							]]>
+						</en>
+						<es>
+							<![CDATA[
+							<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+							</Section>
+							]]>
+						</es>
+					</Description>
+					
+					<Children>
+						<Book Guid="E85E3CEC-9D1C-429C-B5C0-EFD48F9A3DE9" Uri="https://misc.vmbtime.com/imlib/books/demo/testbook-demo.imbook" Modified="10/28/2016 00:00:00">
+							<BookName>
+								<ru>Демонстрация типов тестовых заданий</ru>
+							</BookName>
+							<Description>
+								<ru>
+									<![CDATA[
+									<Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve">
+										<Paragraph></Paragraph>
+										<Paragraph FontSize="8"/>
+									</Section>
+									]]>
+								</ru>
+							</Description>
+						</Book>
+					</Children>	
+				</Folder>
+				<!-- END Демонстрационные материалы -->
+			
+			</Children>
+		</Folder>
+
+	</Children>
+</Catalog>
