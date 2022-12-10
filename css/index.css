@@ -1,3 +1,8 @@
+:root {
+	--fave-color: #7A2525;
+  }
+
+
 * {
 	box-sizing: border-box;
 }
@@ -9,5 +14,20 @@ body {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	overflow: hidden;
+	overflow-y: auto;
+
+	color: var(--fave-color);
+}
+
+header {
+	border-bottom: 1px solid var(--fave-color);
+}
+
+main {
+	margin-top: 1.5rem;
+}
+
+.setup-download-link {
+	color: var(--fave-color);
+	border-color: var(--fave-color);
 }

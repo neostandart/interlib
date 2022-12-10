@@ -7,47 +7,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Интерактивная библиотека</title>
     <!---->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!---->
     <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="text-center">
-        <h4>программная система для работы с виртуальными учебниками</h4>
+        <img src="./res/images/neostandart.png" class="img-fluid" alt="NeoStandArt logo">
+        <h4 class="mb-0">программная система управления виртуальными учебниками</h4>
         <h1>Интерактивная библиотека</h1>
     </header>
     <!--///-->
     <main>
         <!-- Brief information -->
-        <article>
-        
-            <p>Brief information</p>
-        
+        <article class="container">
+
+            <p>Уважаемые пользователи! С этой страницы вы можете скачать и установить на свой компьютер программное
+                приложение «Интерактивная библиотека» Данная система представляет собой программную оболочку для работы
+                с интерактивными виртуальными учебными материалами ориентированными на лингводидактические
+                задачи. После установки программа предоставляет доступ к набору виртуальных учебников и пособий по РКИ
+                (русский как иностранный) созданных сотрудниками Института международного образования Воронежского
+                государственного университета. Предлагаемый материал может использоваться в вузах и других учебных
+                заведениях в которых проходят обучение иностранные студенты.</p>
+            <p>«Интерактивная библиотека» является десктоп-приложением построенным на базе технологии <a
+                    href="https://www.microsoft.com/silverlight/" target="_blank">Microsoft Silverlight</a> поэтому
+                способна работать только на персональных компьютерах и ноутбуках под управлением операционной системы
+                Windows версии 7/8/10 и последующих.</p>
+            <p>Данное программное приложение распространяется его автором/разработчиком совершенно бесплатно без
+                каких-либо дополнительных обязательств. Более подробную информацию о способе установки программы на свой
+                компьютер смотрите ниже.</p>
+
+            <p>Следующая презентация может дать общее представление об идеях заложенных автором в предлагаемую
+                программную систему, о практических аспектах её использования и понятии "виртуального учебника" как
+                программной технологии лежащей в основе данной разработки: <a
+                    href="https://neostandart.github.io/interlib-vision/"
+                    target="_blank">перейти&nbsp;к&nbsp;презентации</a></p>
+
+
         </article>
 
-        <article>
-        
-            <p>Скачать</p>
-            <a href="./res/distr/ver-cmd/InterLib-Setup.zip" download>Скачать установщик программы «Интерактивная библиотека»</a>
-        
+        <!-- Download -->
+        <article class="my-4">
+            <p class="text-center">
+                <a role="button" class="setup-download-link btn btn-outline-primary fw-semibold "
+                    href="./res/distr/ver-cmd/InterLib-Setup.zip" download><i class="image bi-download"></i>
+                    <span class="text">Скачать установщик программы<br /><span class="h5">«Интерактивная
+                            библиотека»</span></span>
+                </a>
+            </p>
         </article>
 
-        
+
         <!-- Installation instruction -->
-        <article>
-        
-            <p>Installation instruction</p>
-        
+        <article class="container">
+
+            <h3>Инструкция по установке</h3>
+
+            <ul class="list-group list-group-numbered">
+                <li class="list-group-item py-2">
+                    Загрузите архивный файл, содержащий установочный пакет программы (файл
+                    <strong>InterLib-Setup.zip</strong>), на свой компьютер.
+                </li>
+
+                <li class="list-group-item py-2">
+                    Извлеките из архивного файла (.zip) папку "
+                    <strong>InterLib-Setup</strong>" в любое место на своём компьютере (рекомендуется на Рабочий стол).
+                    Содержимое папки показано ниже:
+                    <br>
+                    <img style="margin-bottom: -4px;" src="./res/images/install-package.png">
+                </li>
+
+                <li class="my-4">
+                    <h5>Внимание!</h5>
+
+                    <p>Для работы программы "Интерактивная библиотека ИМО ВГУ" требуется плагин
+                        <strong>Microsoft Silverlight</strong> версии 5+. Если данный плагин уже установлен на вашем
+                        компьютере,
+                        то текущий пункт следует пропустить.
+                    </p>
+
+                    <h6>Установка Microsoft Silverlight</h6>
+                    <ul>
+                        <li>Откройте папку "Silverlight", расположенную в корневой папке архива (папка
+                            "InterLib-Setup").</li>
+                        <li>Запустите на выполнение (двойной щелчок) один из двух файлов: "Silverlight_5_x32.exe" или
+                            "Silverlight_5_x64.exe" (в зависимости от разрядности вашей операционной системы: 32 или
+                            64).</li>
+                        <li>Следуйте инструкциям Мастера установки.</li>
+                        <strong>Рекомендация!</strong> В начальном окне Мастера установки снимите флажки с предлагаемых
+                        опций:
+                        <br>
+                        <span class="ui-elem">[Сделать Bing поисковой системой по умолчанию]</span> и
+                        <span class="ui-elem">[Сделать MSN домашней страницей]</span> (как показано ниже).
+                        <br>
+                        <img src="./res/images/silv-inst-screen.png" style="width:100%;max-width:450px">
+                        <br>
+                        <i>Дополнительные материалы по Microsoft Silverlight можно найти на официальном сайте корпорации
+                            Майкрософт по следующей ссылке:</i>
+                        <a href="https://www.microsoft.com/getsilverlight/Get-Started/Install/Default"
+                            target="_blank">Get
+                            Microsoft Silverlight</a>.
+                        <li>После завершения инсталляции плагина
+                            <strong>Microsoft Silverlight</strong> можно переходить к следующему шагу: непосредственной
+                            установке Интерактивной библиотеки.
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="list-group-item py-2">
+                    Из папки "InterLib-Setup" запустите на выполнение (двойной щелчок) файл
+                    <strong>"Setup.cmd"</strong> и дождитесь появления сообщения "Установка завершена!" После этого на
+                    рабочем столе должен появиться ярлык установленного приложения
+                    <strong>"Интерактивная библиотека ИМО ВГУ"</strong> следующего вида:
+                    <br>
+                    <p style="margin: 0;text-align:center;">
+                        <img src="./res/images/InterLib-icon.png">
+                    </p>
+                </li>
+
+                <li class="my-4">
+                    <h5>Внимание!</h5>
+
+                    <p>
+                        При попытке запуска установщика программы операционная система Windows
+                        может выдать предупреждение безопасности с требованием подтвердить продолжение операции. Чтобы
+                        продолжить
+                        установку, необходимо выполнить подтверждение, как показано ниже (для рус. и англ. интерфейсов):
+                    </p>
+
+                    <div class="row">
+                        <div class="col col-1">
+                            <h4>1)</h4>
+                        </div>
+                        <div class="col col-11">
+                            <div class="row">
+                                <div class="col"><img src="./res/images/smart-screen/screen-1-en.png"
+                                        style="max-width: 100%"></div>
+                                <div class="col"><img src="./res/images/smart-screen/screen-1-ru.png"
+                                        style="max-width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col col-1">
+                            <h4>2)</h4>
+                        </div>
+                        <div class="col col-11">
+                            <div class="row">
+                                <div class="col"><img src="./res/images/smart-screen/screen-2-en.png"
+                                        style="max-width: 100%"></div>
+                                <div class="col"><img src="./res/images/smart-screen/screen-2-ru.png"
+                                        style="max-width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item py-2">
+                    После успешной установки программы
+                    <strong>«Интерактивная библиотека ИМО ВГУ»</strong> папку исталяционного пакета (папка
+                    "InterLib-Setup")
+                    можно удалить.
+                </li>
+            </ul>
+
+            <div class="alert alert-primary mt-4" role="alert">
+                Примечание. Если ярлык программы не появился на рабочем столе, попробуйте выполнить процедуру установки
+                ещё раз.
+            </div>
+
         </article>
 
         <!-- About this project -->
-        <article>
-        
-            <p>About this project</p>
-        
+        <article class="container">
+
+            <h3>Об этом проекте</h3>
+
         </article>
- 
+
     </main>
     <!--///-->
     <footer>
@@ -55,7 +195,9 @@
     </footer>
 
     <!-- Code -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 
