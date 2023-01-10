@@ -31,3 +31,7 @@ main {
 	color: var(--fave-color);
 	border-color: var(--fave-color);
 }
+
+.sepline {
+	border-bottom: 1px solid var(--fave-color);
+}
