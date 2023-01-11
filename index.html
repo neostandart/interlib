@@ -237,16 +237,25 @@
                             src="./res/images/paste-btn.png"></p>
                 </li>
                 <li class="list-group-item">
-                    Введите в поля следующие пути:
+                    Введите в поля следующие значения:
                     <div class="mt-2 ms-3 mb-3">
-                        <label for="CatalogPathField">Путь к каталогу учебного материала:</label>
-                        <textarea class="form-control setting-item" readonly
-                            id="CatalogPathField">https://neostandart.github.io/interlib/res/mats/catalog/catalog.xml</textarea>
+                        <label for="CatalogPathFieldBox">Путь к каталогу учебного материала:</label>
+                        <div id="CatalogPathFieldBox" class="d-flex align-items-start">
+                            <textarea class="form-control setting-item" readonly
+                                id="CatalogPathField">https://neostandart.github.io/interlib/res/mats/catalog/catalog.xml</textarea>
+                            <button id="CatalogPathCopyBtn" class="btn btn-outline-dark ms-1" title="Скопировать в буфер обмена"><i
+                                    class="bi bi-clipboard" onclick="copyToClipboard('CatalogPathField')"></i></button>
+                        </div>
+
                     </div>
                     <div class="mb-3 ms-3">
-                        <label for="CatalogPathField">Место расположения учебного материала:</label>
-                        <textarea class="form-control setting-item" readonly
-                            id="CatalogPathField">https://neostandart.github.io/interlib/res/mats/books</textarea>
+                        <label for="LocationPathFieldBox">Место расположения учебного материала:</label>
+                        <div id="LocationPathFieldBox" class="d-flex align-items-start">
+                            <textarea class="form-control setting-item" readonly
+                                id="LocationPathField">https://neostandart.github.io/interlib/res/mats/books</textarea>
+                            <button id="LocationPathCopyBtn" class="btn btn-outline-dark ms-1" title="Скопировать в буфер обмена"><i
+                                    class="bi bi-clipboard" onclick="copyToClipboard('LocationPathField')"></i></button>
+                        </div>
                     </div>
                 </li>
             </ol>
@@ -281,6 +290,7 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
