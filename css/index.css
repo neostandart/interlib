@@ -35,3 +35,8 @@ main {
 .sepline {
 	border-bottom: 1px solid var(--fave-color);
 }
+
+.setting-item {
+	color: black;
+	font-weight: 500;
+}

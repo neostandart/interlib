@@ -49,7 +49,8 @@
                     бесплатно</strong> без
                 каких-либо дополни&shy;тельных обяза&shy;тельств. Более подробную информацию о способе уста&shy;новки
                 прог&shy;раммы на свой
-                компь&shy;ютер смотрите ниже.</p>
+                компь&shy;ютер смотрите ниже.
+            </p>
 
             <p>
                 Перед началом работы с прог&shy;раммой предла&shy;гается посмотреть <a
@@ -212,6 +213,44 @@
                             библиотека»</span></span>
                 </a>
             </p>
+        </article>
+
+        <article class="container">
+            <h5>Окончательная настройка</h5>
+
+            <div class="alert alert-primary mt-4" role="alert">
+                Для подключения программы к хранилищу виртуальных учебников необходимо выполнить настройку
+                соответствующих путей.
+            </div>
+
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">
+                    После запуска программы откройте окно настроек
+                    <div class="text-center mt-2"><img src="./res/images/interlib-after-01.png"
+                            style="width:100%; max-width:500px"></div>
+                </li>
+                <li class="list-group-item">
+                    Введите пути в указанные поля
+                    <div class="text-center mt-2"><img src="./res/images/interlib-after-02.png"
+                            style="width:100%; max-width:500px"></div>
+                    <p class="pt-4 text-center">Для вставки текста из буфера обмена можно воспользоваться кнопкой <img
+                            src="./res/images/paste-btn.png"></p>
+                </li>
+                <li class="list-group-item">
+                    Введите в поля следующие пути:
+                    <div class="mt-2 ms-3 mb-3">
+                        <label for="CatalogPathField">Путь к каталогу учебного материала:</label>
+                        <textarea class="form-control setting-item" readonly
+                            id="CatalogPathField">https://neostandart.github.io/interlib/res/mats/catalog/catalog.xml</textarea>
+                    </div>
+                    <div class="mb-3 ms-3">
+                        <label for="CatalogPathField">Место расположения учебного материала:</label>
+                        <textarea class="form-control setting-item" readonly
+                            id="CatalogPathField">https://neostandart.github.io/interlib/res/mats/books</textarea>
+                    </div>
+                </li>
+            </ol>
+
         </article>
 
         <div class="sepline"></div>
